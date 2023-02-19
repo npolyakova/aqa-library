@@ -8,7 +8,6 @@ import java.util.*;
 
 import static ru.library.GenerateUtils.generateSomeBooks;
 import static ru.library.GenerateUtils.generateSomeNewsPapers;
-import static ru.library.SearchOperations.getBookByName;
 import static ru.library.SortOperations.*;
 
 public class SortOperationsTest {

@@ -1,11 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.library.Book;
-import ru.library.GenerateUtils;
-import ru.library.SearchOperations;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.Random;
 
 import static ru.library.GenerateUtils.generateSomeBooks;
