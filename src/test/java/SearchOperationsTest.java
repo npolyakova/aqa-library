@@ -23,6 +23,7 @@ public class SearchOperationsTest {
         Assertions.assertNotNull(getBookByNameAndAuthor("Two capitan", "Averin", books), "must be Averin");
         Assertions.assertNotNull(getBookByNameAndAuthor("Two capitan", "Averin", books), "must be Two capitanv");
     }
+    @Test
     public void shouldSearchOperationsNameBooks() {
         Random r = new Random();
         List<Book> books = generateSomeBooks(r.nextInt(0, 1));
