@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.library.Book;
+
 import java.util.List;
 import java.util.Random;
 
@@ -19,6 +20,7 @@ public class SearchOperationsTest {
         Assertions.assertNotNull(getBookByNameAndAuthor("Two capitan", "Averin", books), "must be Averin");
         Assertions.assertNotNull(getBookByNameAndAuthor("Two capitan", "Averin", books), "must be Two capitanv");
     }
+
     @Test
     public void shouldSearchOperationsNameBooks() {
         Random r = new Random();

@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class NewspaperTest {
     private static Faker faker = new Faker();
+
     @Test
     public void shouldSetNewspaper() {
         final Newspaper newspaper = new Newspaper("bookName", faker.date().past(20, TimeUnit.DAYS).toInstant());

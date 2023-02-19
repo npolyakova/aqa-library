@@ -13,6 +13,7 @@ public class BookTest {
         Assertions.assertNotNull(book.getAuthor());
         Assertions.assertNotNull(book.getCategory());
     }
+
     @Test
     public void shouldnotSetCategory() {
         final Book book = new Book("bookName", "bookAuthor");
