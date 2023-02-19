@@ -36,6 +36,6 @@ public class Main {
 
         Optional<Book> foundBook = getBookByName("Два капитана", books);
         System.out.println(foundBook.get().getName());
-        System.out.println(getBookByNameAndAuthor("Два капитана", "В. Каверин", books).get().getName());
+        System.out.println(getBookByNameAndAuthor("Два капитана", "В. Каверин", books).get().getAuthor());
     }
 }
