@@ -31,5 +31,5 @@ public class BookTest extends TestBase{
 
         assertTrue(outContent.toString().startsWith("Категория не содержит имени"));
     }
-
+//sg
 }
