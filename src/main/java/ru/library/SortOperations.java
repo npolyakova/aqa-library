@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class SortOperations {
 
-    private static boolean checkIfBookHasCategory(Book book) {
+    public static boolean checkIfBookHasCategory(Book book) {
         if (book.getClass() == Newspaper.class) {
             System.out.println("Газеты не сортируются по категориям");
             return false;
