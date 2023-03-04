@@ -39,7 +39,7 @@ public class SortOperations {
             );
             return booksOfCategory;
         } else {
-            System.out.println("В библиотеке нет книг с заданной категорией");
+            System.out.print("some text");
             return null;
         }
     }

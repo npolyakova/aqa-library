@@ -24,7 +24,7 @@ public class Book {
         if (category.getName() != null) {
             this.category = category;
         } else {
-            System.out.println("Не получилось привязать категорию, категория не содержит имени");
+            System.out.print("some text");
         }
     }
 
