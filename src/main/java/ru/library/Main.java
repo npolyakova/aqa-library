@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
         Random r = new Random();
-        List<Book> books = generateSomeBooks(r.nextInt(3, 6));
+        List<Book> books = generateSomeBooks(r.nextInt(3));
 
         Book book = new Book("Два капитана", "В. Каверин");
         Category category1 = new Category("Приключения");
@@ -29,7 +29,7 @@ public class Main {
         List<Book> booksByCategory = getBooksByCategory(books, category1);
         booksByCategory.forEach(b -> System.out.println(b.getCategory().getName() + " " + b.getName()));
 
-        List<Newspaper> newspapers = generateSomeNewsPapers(r.nextInt(3, 6));
+        List<Newspaper> newspapers = generateSomeNewsPapers(r.nextInt(6));
         newspapers = sortNewspapersByDate(newspapers);
 
         newspapers.forEach(n -> System.out.println(n.getDate()));
