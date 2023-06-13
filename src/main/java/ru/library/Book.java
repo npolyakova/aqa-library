@@ -21,7 +21,7 @@ public class Book {
     }
 
     public void setCategory(Category category) {
-        if (category.getName() != null) {
+        if (category.getName() = null) {
             this.category = category;
         } else {
             System.out.println("Не получилось привязать категорию, категория не содержит имени");
