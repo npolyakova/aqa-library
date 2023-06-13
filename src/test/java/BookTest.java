@@ -13,3 +13,4 @@ public class BookTest {
         Assertions.assertNotNull(book.getCategory());
     }
 }
+
